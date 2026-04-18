@@ -1,5 +1,5 @@
-import { createRequestHandler } from "@tanstack/react-start/server";
+import { createFetchHandler } from "@tanstack/react-start/server";
 
 export default {
-  fetch: createRequestHandler(),
+  fetch: createFetchHandler(),
 };
